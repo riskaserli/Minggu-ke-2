@@ -1,0 +1,280 @@
+<html>
+<head>
+	<title>Latihan FORM</title>
+</head>
+<body>
+	<h2> FORM PENDATAAN MAHASISWA </h2>
+	<form name="fbiomhs" action="form.php" method="post">
+		<table>
+			<tr>
+				<td>Fakultas</td>
+			</tr>	
+				
+			<tr>
+				<td style="font-weight:bold;">Kesehatan</td> 
+			</tr>
+
+			<tr>
+				<td> Jurusan </td>
+				<td><input type="text" name="fjurusan"></td>
+			</tr>
+			
+			<tr>
+				<td> Program Studi </td>
+				<td><input type="text" name="fprogramstudi"></td>
+			</tr>
+			
+			<tr>
+				<td> Kode Mahasiswa* </td>
+				<td><input type="text" name="fkode"></td>
+			</tr>
+			
+			<tr>
+				<td> Nama Mahasiswa* </td>
+				<td><input type="text" name="fnama"></td>
+			</tr>
+			
+			<tr>
+				<td> NIK Mahasiswa (No KTP)*</td>
+				<td><input type="number" name="fktp"></td>
+			</tr>
+			
+			<tr>
+				<td> No BPJS</td>
+				<td><input type="number" name="fbpjs"></td>
+			</tr>
+			
+			<tr>
+				<td> Password </td>
+				<td><input type="text" name="fpassword"></td>
+			</tr>
+			
+			<tr>
+				<td> Tahun Angkatan*</td>
+				<td><input type="number" name="fktp"></td>
+			</tr>
+			
+			<tr>
+				<td> Semester Masuk </td>
+				<td>
+					<select >
+						<option value=""> </option>
+						<option value="1"> 1 </option>
+						<option value="2"> 2 </option>
+						<option value="3"> 3 </option>
+						<option value="4"> 4 </option>
+						<option value="5"> 5 </option>
+					</select>
+				</td>
+			</tr>
+			
+			<tr>
+				<td> Dosen Pembimbing Akademik </td>
+				<td><input type="text" name="fdosenpembimbing"></td>
+			</tr>
+			
+			<tr>
+				<td> No Telp Orangtua/Wali</td>
+				<td><input type="number" name="fnotelp"></td>
+			</tr>
+			
+			<tr>
+				<td> No Hp Mahasiswa</td>
+				<td><input type="number" name="fnohp"></td>
+			</tr>
+			
+			<tr>
+				<td> Email Aktif Mahasiswa </td>
+				<td><input type="text" name="femail"></td>
+			</tr>
+			
+			<tr>
+				<td> Tempat Tinggal Saat Kuliah </td>
+				<td>
+					<select >
+						<option value=" "> --Pilih Jenis Tinggal-- </option>
+						<option value="Rumah Kos"> Rumah Kos </option>
+						<option value="Rumah Kontrak"> Rumah Kontrak </option>
+						<option value="Rumah Saudara"> Rumah Saudara </option>
+						<option value="Rumah Keluarga"> Rumah Keluarga </option>
+					</select>
+				</td>
+			</tr>
+			
+			<tr>
+				<td> Jenis Kelamin </td>
+				<td>
+					<select >
+						<option value=""> </option>
+						<option value="Laki-Laki"> Laki-Laki </option>
+						<option value="Perempuan"> Perempuan </option>
+					</select>
+				</td>
+			</tr>
+			
+			<tr>
+				<td> Agama </td>
+				<td>
+					<select >
+						<option value=" ">   </option>
+						<option value="Islam"> Islam </option>
+						<option value="Katholik"> Katholik </option>
+						<option value="Protestan"> Protestan </option>
+						<option value="Hindu"> Hindu </option>
+						<option value="Budha"> Budha </option>
+					</select>
+				</td>
+			</tr>
+			
+			<tr>
+				<td> Status Marital </td>
+				<td>
+					<select >
+						<option value=" ">   </option>
+						<option value="Belum Menikah"> Belum Menikah </option>
+						<option value="Sudah Menikah"> Sudah Menikah </option>
+					</select>
+				</td>
+			</tr>
+			
+			<tr>
+				<td> Nama Gadis Ibu Kandung </td>
+				<td><input type="text" name="fnamaibu"></td>
+			</tr>
+			
+			<tr>
+				<td> Nama Ayah Kandung </td>
+				<td><input type="text" name="fnamaayah"></td>
+			</tr>
+			
+			<tr>
+				<td> Tempat Lahir </td>
+				<td><input type="text" name="ftempatlahir"></td>
+			</tr>
+			
+			<tr>
+				<td> Tanggal Lahir </td>
+				<td><input type="date"></td>
+			</tr>
+			
+			<tr>
+				<td> Kewarganegaran </td>
+				<td>
+					<select >
+						<option value=" ">   </option>
+						<option value="Belum Menikah"> WNI </option>
+						<option value="Sudah Menikah"> WNA </option>
+					</select>
+				</td>
+			</tr>
+			
+			<tr>
+				<td> Alamat Asal </td>
+				<td><input type="text" name="falamat"></td>
+			</tr>
+			
+			<tr>
+				<td> RT/RW Asal </td>
+				<td><input type="text" name="frtrw"></td>
+			</tr>
+			
+			<tr>
+				<td> Desa Kelurahan Asal </td>
+				<td><input type="text" name="fdesa"></td>
+			</tr>
+			
+			<tr>
+				<td> Kecamatan Asal </td>
+				<td><input type="text" name="fkecamatan"></td>
+			</tr>
+			
+			<tr>
+				<td> Kota Asal </td>
+				<td><input type="text" name="fkota"></td>
+			</tr>
+			
+			<tr>
+				<td> Kode Pos Asal </td>
+				<td><input type="number" name="fkodepos"></td>
+			</tr>
+			
+			<tr>
+				<td> Provinsi Asal </td>
+				<td><input type="text" name="fprovinsi"></td>
+			</tr>
+			
+			<tr>
+				<td> Negara Asal </td>
+				<td><input type="text" name="fnegara"></td>
+			</tr>
+			
+			<tr>
+				<td> Alamat Sekarang </td>
+				<td><input type="text" name="falamatsekarang"></td>
+			</tr>
+			
+			<tr>
+				<td> RT/RW Sekarang </td>
+				<td><input type="text" name="frtrwsekarang"></td>
+			</tr>
+			
+			<tr>
+				<td> Desa Kelurahan Sekarang </td>
+				<td><input type="text" name="fdesasekarang"></td>
+			</tr>
+			
+			<tr>
+				<td> Kecamatan Sekarang </td>
+				<td><input type="text" name="fkecamatansekarang"></td>
+			</tr>
+			
+			<tr>
+				<td> Kota Sekarang </td>
+				<td><input type="text" name="fkotasekarang"></td>
+			</tr>
+			
+			<tr>
+				<td> Kode Pos Sekarang </td>
+				<td><input type="number" name="fkodepossekarang"></td>
+			</tr>
+			
+			<tr>
+				<td> Provinsi Sekarang </td>
+				<td><input type="text" name="fprovinsisekarang"></td>
+			</tr>
+			
+			<tr>
+				<td> Transfer? </td>
+				<td>
+					<select >
+						<option value="Tidak"> Tidak </option>
+						<option value="Ya"> Ya </option>
+					</select>
+				</td>
+			</tr>
+			
+			<tr>
+				<td> Jenis Pendaftaran </td>
+				<td>
+					<select >
+						<option value=" "> - </option>
+						<option value="PMDK"> PMDK </option>
+						<option value="Reguler"> Reguler </option>
+					</select>
+				</td>
+			</tr>
+			
+			<tr>
+				<td> Status </td>
+				<td>
+					<select >
+						<option value=" "> Pilih </option>
+						<option value="Bekerja"> Bekerja </option>
+						<option value="Tidak Bekerja"> Tidak Bekerja </option>
+					</select>
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
